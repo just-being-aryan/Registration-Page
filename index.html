@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="">
+      <div class="wrapper">
+        <h1>Registration Form</h1>
+        <div class="input-box">
+          <input id="firstName" type="text" placeholder="First Name" />
+        </div>
+        <div class="input-box">
+          <input id="lastName" type="text" placeholder="Last Name" />
+        </div>
+        <div class="input-box">
+          <input id="age" type="number" placeholder="Age" />
+        </div>
+        <div class="input-box">
+          <input id="email" type="email" placeholder="Ex - user@gmail.com" />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input id="pass1" type="password" placeholder="Password" />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input id="pass2" type="password" placeholder="Confirm Password" />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <button onclick="validateForm()" type="submit" class="btn">
+          Register
+        </button>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
